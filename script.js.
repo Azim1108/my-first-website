@@ -1,0 +1,7 @@
+const button = document.getElementById('changeTextButton');
+const outputText = document.getElementById('outputText');
+
+button.addEventListener('click', () => {
+    outputText.textContent = 'Ты нажал на кнопку! Молодец!';
+    outputText.style.color = '#FF5733';
+});
